@@ -1,0 +1,54 @@
+body{
+    background-color: cadetblue;
+}
+
+.box1{
+
+    background-color: rgb(202, 162, 101);
+    width: 1300px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 3px solid rgb(87, 126, 11);
+}
+
+.box2{
+
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+.BTH{
+    font-weight: bold;
+    background: burlywood;
+    font-size: larger;
+    color: rgb(131, 41, 8);
+    width: 170px;
+    height: 50px;
+    border: 2px solid rgba(223, 111, 117, 0.301);
+    border-radius: 15px;
+    margin-top: 35px;
+    margin-left: 550px;
+
+}
+.BTH:hover{
+    background-color: rgb(101, 145, 112);
+}
+
+.ASB{
+    font-weight: bold;
+    background: burlywood;
+    font-size: larger;
+    color: rgb(131, 41, 8);
+    width: 240px;
+    height: 50px;
+    border: 2px solid rgba(223, 111, 117, 0.301);
+    border-radius: 15px;
+    margin-top: 450px;
+    margin-left: 30px;
+
+}
+.ASB:hover{
+    background-color: rgb(101, 145, 112);
+}

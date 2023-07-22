@@ -1,0 +1,210 @@
+body{
+	background-color: #8ca4ca;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1.5em;
+   }
+   
+ 
+
+   .user_info_box{
+	   background: #626873;
+	   width: 400px;
+	   height: 250px;
+				border: 3px solid orange;
+				border-radius: 15px;
+				margin-left: 39%;
+				margin-top: 60px;
+				margin-bottom: 150px;
+   }
+			
+			label{
+		font-size: larger;
+   }
+   .top{
+   
+	   margin-left: 10px;
+	   font-family: Arial, Helvetica, sans-serif;
+   
+   }
+   
+   .button{
+	   background-color: #bdb54d;
+	   padding: 12px 60px;
+				border: 2px solid rgba(211, 121, 18, 0.383);
+				border-radius: 15px;
+	   margin-bottom: 40px;
+	   margin-left: 100px;
+	   font-size: medium;
+	  }
+	  
+   .button:hover{
+	   background-color: red;
+   }   
+   
+   
+   .SO{
+	   font-weight: bold;
+	   background: burlywood;
+	   font-size: larger;
+	   color: rgb(131, 41, 8);
+	   width: 250px;
+	   height: 80px;
+				border: 2px solid rgba(223, 111, 117, 0.301);
+				border-radius: 15px;
+	   margin-top: 35px;
+	   margin-left: 90px;
+   
+   }
+   .SO:hover{
+	   background-color: rgb(101, 145, 112);
+   }
+
+
+.borrowed_box{
+	   background: lightcyan;
+	   width: 85%;
+	   height: 380px;
+				border: 3px solid orange;
+				border-radius: 15px;
+				margin-left: 8%;
+				margin-top: 60px;
+				margin-bottom: 300px;
+   }
+
+.borrowed_box .hi1{
+ margin-left: 42%;
+ color: rgb(45, 135, 253);
+}
+
+
+.borrowed_list{
+  	line-height: 1.8em;
+}
+
+.SA{
+	   font-weight: bold;
+	   background: burlywood;
+	   font-size: larger;
+	   color: rgb(131, 41, 8);
+	   width: 250px;
+	   height: 80px;
+				border: 2px solid rgba(211, 121, 18, 0.356);
+				border-radius: 15px;
+	   margin-top: 50px;
+	   margin-left: 590px;
+	   margin-bottom: 0px;
+   
+   }
+   .SA:hover{
+	   background-color: rgb(157, 179, 162);
+   
+   }
+
+
+.edit_borrowed{
+    background: rgb(190, 195, 164);
+	   height: 280px;
+	   width: 75%;
+	   margin-left: 13%;
+	   margin-top: 5px;
+	   margin-bottom: 120px;
+				border: 3px solid rgba(255, 169, 169, 0.164);
+    border-radius: 15px;
+ }
+
+ .form_e{
+						padding-top: 10px;
+						padding-left: 10px;
+   }
+
+.form_e .hi3{
+ margin-left: 48%;
+ color: rgb(25, 69, 128);
+}
+
+ .form_e input[type="text"]{
+						width: 100%;
+						border: 3px rgb(214, 160, 160) solid;
+						border-radius: 15px;
+						padding-top: 10px;
+						padding-bottom: 5px;
+						margin-left: 85px;
+						margin-top: 10px;
+	
+   }
+ 
+
+   
+   .bottom_box{
+	   
+	   background: rgb(175, 123, 105);
+	   height: 330px;
+	   width: 75%;
+	   margin-left: 13%;
+	   margin-top: 5px;
+	   margin-bottom: 6px;
+				border: 3px solid rgba(255, 169, 169, 0.164);
+				border-radius: 15px;
+	   
+   }
+   
+
+ .form{
+						padding-top: 10px;
+						padding-left: 10px;
+   }
+
+.form .hi2{
+ margin-left: 52%;
+ color: rgb(25, 69, 128);
+}
+
+ .form input[type="text"]{
+						width: 100%;
+						border: 3px red solid;
+						border-radius: 15px;
+						padding-top: 10px;
+						padding-bottom: 5px;
+						margin-left: 85px;
+						margin-top: 10px;
+	
+   }
+
+   
+   .SE{
+
+	font-weight: bold;
+	background: rgb(153, 255, 255);
+	font-size: larger;
+	color: rgb(131, 41, 8);
+	width: 250px;
+	height: 60px;
+	border: 2px solid rgb(214, 125, 130);
+	border-radius: 15px;
+	margin-top: 10px;
+	margin-left: 40%;
+   }
+
+   .SE:hover{
+		background-color: rgb(31, 147, 255);
+}
+
+ .po{
+
+	font-weight: bold;
+	background: rgb(111, 197, 255);
+	font-size: larger;
+	color: rgb(226, 124, 86);
+	width: 250px;
+	height: 60px;
+	border: 2px solid rgb(214, 125, 130);
+	border-radius: 15px;
+	margin-top: 15px;
+	margin-left: 40%;
+   }
+
+   .po:hover{
+		background-color: rgb(31, 147, 255);
+}

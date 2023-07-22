@@ -1,0 +1,77 @@
+CREATE DATABASE Online_Library
+
+CREATE TABLE 
+Member_info
+(
+    
+    User_id int PRIMARY KEY,
+    Password varchar(30), 
+    Name varchar (50) ,
+    contact_num  varchar(20),
+    Address varchar (50),
+    Mem_exp varchar (20)
+   
+);
+
+
+CREATE TABLE 
+Admin_info 
+(
+    Name varchar (50),
+    User_id int PRIMARY KEY,
+    Designation varchar (50),
+    Contact_Info varchar(20)
+    Password varchar(30)
+   
+);
+
+
+
+
+
+CREATE TABLE 
+All_Book_List
+(
+    Book_id int,
+    Book_name varchar (50), 
+    Genre varchar(20),
+    Author varchar(50),
+    Year_Of_Publication decimal (9,0), 
+    Format varchar (20),
+    primary key(Book_id,Book_name)
+   
+);
+
+
+CREATE TABLE 
+Borrowed_Book_List
+(
+    Mem_Id int PRIMARY KEY,
+    Book_id int, 
+    Book_Name varchar (50), 
+    Issue_date varchar (30), 
+    Return_date varchar (30)
+   
+);
+
+CREATE TABLE 
+Ordered_Book_List_Admin
+(
+   Admin_id int PRIMARY KEY, 
+   Book_id int, 
+   Publisher_Id int,
+   Book_Name varchar (50),
+   Arrival_date varchar (30),
+   Ordered_date varchar (30)
+   
+);
+
+CREATE TABLE 
+Publisher
+(
+    Publisher_Id int , 
+    Publisher_Name varchar (30), 
+    Address varchar (30),
+    primary key(Publisher_Id,Publisher_Name)
+    
+);
